@@ -1,0 +1,204 @@
+@use '../../utils/' as * ;
+
+/*============= FEATURES CSS AREA ===============*/
+.features_3_section {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 25px;
+    border-radius: 40px;
+    .features_box1 {
+        position: relative;
+        z-index: 1;
+        border-radius: 20px;
+        border: 1px solid rgba(115, 49, 254, 0.20);
+        background: var(--ztc-bg-bg-1);
+        padding: 10px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        transition: all .4s;
+
+        &:hover {
+            transform: translateY(-10px);
+            transition: all .4s;
+        }
+        .feature_box_bg {
+            padding: 20px;
+            background: #F8F3FF;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            border-radius: 16px;
+            .feature_small_bg {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: -1;
+            left: 0;
+        }
+        }
+        .icons_texarea {
+            display: flex;
+            align-items: top;
+            .icons {
+                border-radius: 12px;
+                border: 1px solid var(--Ai-Project-Management-Stroke, #9C88EA);
+                background: var(--Ai-Project-Management-LL, linear-gradient(180deg, #8C75E7 0%, #7255E1 100%));
+                height: 40px;
+                width: 40px;
+                display: inline-block;
+                transition: all .4s;
+                text-align: center;
+                line-height: 40px;
+                max-width: 40px;
+                position: absolute;
+            }
+            .text {
+                padding-left: 60px;
+                .title {
+                    color: var(--ztc-text-text-7);
+                    font-family: var(--ztc-family-font1);
+                    font-size: var(--ztc-font-size-font-s20);
+                    font-style: normal;
+                    font-weight: var(--ztc-weight-semibold);
+                    line-height: 20px;
+                }
+                p {
+                    color: var(--ztc-text-text-3);
+                    font-family: var(--ztc-font-size-font-s20);
+                    font-size: var(--ztc-font-size-font-s18);
+                    font-style: normal;
+                    font-weight: var(--ztc-weight-medium);
+                    line-height: 26px;
+                    letter-spacing: -0.18px;
+                }
+            }
+        }
+    }
+    .features_box2 {
+        position: relative;
+        z-index: 1;
+        border-radius: 20px;
+        border: 1px solid rgba(115, 49, 254, 0.20);
+        background: var(--ztc-bg-bg-1);
+        padding: 10px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        transition: all .4s;
+
+        &:hover {
+            transform: translateY(-10px);
+            transition: all .4s;
+        }
+        .feature_box_bg {
+            padding: 20px 20px 0 20px;
+            background: #F8F3FF;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            border-radius: 16px;
+            .feature_small_bg {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: -1;
+            left: 0;
+        }
+        }
+        .icons_texarea {
+            display: flex;
+            align-items: top;
+            .icons {
+                border-radius: 12px;
+                border: 1px solid var(--Ai-Project-Management-Stroke, #9C88EA);
+                background: var(--Ai-Project-Management-LL, linear-gradient(180deg, #8C75E7 0%, #7255E1 100%));
+                height: 40px;
+                width: 40px;
+                display: inline-block;
+                transition: all .4s;
+                text-align: center;
+                line-height: 40px;
+                max-width: 40px;
+                position: absolute;
+            }
+            .text {
+                padding-left: 60px;
+                .title {
+                    color: var(--ztc-text-text-7);
+                    font-family: var(--ztc-family-font1);
+                    font-size: var(--ztc-font-size-font-s20);
+                    font-style: normal;
+                    font-weight: var(--ztc-weight-semibold);
+                    line-height: 20px;
+                }
+                p {
+                    color: var(--ztc-text-text-3);
+                    font-family: var(--ztc-font-size-font-s20);
+                    font-size: var(--ztc-font-size-font-s18);
+                    font-style: normal;
+                    font-weight: var(--ztc-weight-medium);
+                    line-height: 26px;
+                    letter-spacing: -0.18px;
+                }
+            }
+        }
+    }
+    .features_author_box {
+        border-radius: 20px;
+        border: 1px solid rgba(115, 49, 254, 0.20);
+        background: var(--ztc-bg-bg-1);
+        padding: 20px 40px 35px 40px;
+        text-align: center;
+        margin-bottom: 30px;
+        h4 {
+            span {
+                color: var(--ztc-text-text-8);
+                text-align: center;
+                font-family: var(--ztc-family-font1);
+                font-size: var(--ztc-font-size-font-s20);
+                font-style: normal;
+                font-weight: var(--ztc-weight-semibold);
+                line-height: 28px;
+            }
+            color: rgba(8, 1, 25, 0.90);
+            font-family: var(--ztc-family-font1);
+            font-size: var(--ztc-font-size-font-s20);
+            font-style: normal;
+            font-weight: var(--ztc-weight-semibold);
+            line-height: 28px;
+        }
+    }
+    .features_experiance_box {
+        border-radius: 20px;
+        border: 1px solid var(--Ai-Project-Management-Stroke, #9C88EA);
+        background: var(--Ai-Project-Management-LL, linear-gradient(180deg, #8C75E7 0%, #7255E1 100%));
+        padding: 35px;
+        @media #{$xs} {
+            margin-bottom: 30px;
+        }
+        @media #{$md} {
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: var(--ztc-text-text-1);
+            text-align: center;
+            font-family: var(--ztc-family-font1);
+            font-size: var(--ztc-font-size-font-s48);
+            font-style: normal;
+            font-weight: var(--ztc-weight-semibold);
+            line-height: 48px;
+            letter-spacing: -0.96px;
+        }
+        p {
+            color: var(--ztc-text-text-1);
+            text-align: center;
+            font-family: var(--ztc-font-size-font-s20);
+            font-size: var(--ztc-font-size-font-s20);
+            font-style: normal;
+            font-weight: var(--ztc-weight-medium);
+            line-height: 28px; /* 140% */
+            letter-spacing: -0.4px;
+        }
+    }
+}
+/*============= FEATURES CSS ENDS ===============*/

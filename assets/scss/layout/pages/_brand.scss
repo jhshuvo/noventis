@@ -1,0 +1,80 @@
+@use '../../utils/' as * ;
+
+/*============= BRAND CSS AREA ===============*/
+.brand_2_section_area {
+    position: relative;
+    z-index: 1;
+    background: #EDEAFB;
+    padding: 60px 0;
+    @media #{$xs} {
+        padding: 30px 0;
+    }
+    .brand_heading{
+        h4 {
+            color: var(--ztc-text-text-5);
+            font-family: var(--ztc-family-font1);
+            font-size: var(--ztc-font-size-font-s20);
+            font-style: normal;
+            font-weight: var(--ztc-weight-semibold);
+            line-height: 24px; /* 120% */
+            letter-spacing: -0.4px;
+            text-transform: uppercase;
+            @media #{$md} {
+                margin-bottom: 30px;
+            }
+            @media #{$xs} {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .brand_Logos_slider {
+        .brand-logo {
+            img {
+                height: 120px;
+                height: 38px;
+                display: inline-block;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+// Homepage 04 //
+.brand_4_section_area {
+    position: relative;
+    z-index: 1;
+    background: #F5F5F5;
+    padding: 60px 0;
+    @media #{$xs} {
+        padding: 30px 0;
+    }
+    .brand_heading{
+        h4 {
+            color: var(--ztc-text-text-10);
+            font-family: var(--ztc-family-font1);
+            font-size: var(--ztc-font-size-font-s20);
+            font-style: normal;
+            font-weight: var(--ztc-weight-semibold);
+            line-height: 24px; /* 120% */
+            letter-spacing: -0.4px;
+            text-transform: uppercase;
+            @media #{$md} {
+                margin-bottom: 30px;
+            }
+            @media #{$xs} {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .brand_Logos_slider {
+        .brand-logo {
+            img {
+                height: 120px;
+                height: 38px;
+                display: inline-block;
+                object-fit: cover;
+            }
+        }
+    }
+}
+/*============= BRAND CSS AREA ===============*/

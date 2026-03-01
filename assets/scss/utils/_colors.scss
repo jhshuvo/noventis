@@ -1,0 +1,30 @@
+$colors: (
+    'text': (
+        'text-1': #fff,
+        'text-2': #080909,
+        'text-3': #3E3B3F,
+        'text-4': #C0F662,
+        'text-5': #191C14,
+        'text-6': #050B16,
+        'text-7':#080119,
+        'text-8':#6E51E0,
+        'text-9':#91E75D,
+        'text-10':#040A01,
+    ),
+    'bg': (
+        'bg-1':#fff,
+        'bg-2':#080909,
+        'bg-3': #C0F662,
+        'bg-4': linear-gradient(183deg, #8159D5 3.7%, #6938D0 98.09%),
+        'bg-5':#050B16,
+        'bg-6':#080119,
+        'bg-7': var(--Ai-Project-Management-LL, linear-gradient(180deg, #8C75E7 0%, #7255E1 100%)),
+        'bg-8':#91E75D,
+        'bg-9':#040A01,
+    ),
+    'border': (
+        'border-1': #95EA00,
+        'border-2': #dfdcdc,
+    )
+);
+
